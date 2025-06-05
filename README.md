@@ -43,7 +43,8 @@ c.listExpansions(Arrays.asList(1, 2, 0));
 - README.md - This file
 # How to Run
 1. In Java locally (ex: javac Juggling.java, java Juggling 3 3 7)
-2. In Google Colab (recommended for interactive use)
+2. In Google Colab (recommended for interactive use): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajesh26k/Juggling-Sequence-Generator/blob/main/juggling_gui.ipynb)
+
 # Ideas for Future Work
 - Add visualization of throwing arcs or landing animations
 - Build a web app version
