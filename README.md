@@ -39,11 +39,12 @@ c.listExpansions(Arrays.asList(1, 2, 0));
 - Google Colab: Lets users run the code interactively without installing anything
 # Files
 - Juggling.java - Core logic: generation, counting, expansion
-- juggling_gui.ipynb - Google Colab notebook with inputs, buttons, and live output
+- Juggling_Sequences_Code.ipynb - Google Colab notebook with inputs, buttons, and live output
 - README.md - This file
 # How to Run
 1. In Java locally (ex: javac Juggling.java, java Juggling 3 3 7)
-2. In Google Colab (recommended for interactive use): https://colab.research.google.com/drive/1KyhMV6jpxu8qTBO5AgFnJkVYxTPsUiZ2?usp=sharing 
+2. In Google Colab (recommended for interactive use): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajesh26k/Juggling-Sequence-Generator/blob/main/Juggling_Sequences_Code.ipynb)
+
 
 # Ideas for Future Work
 - Add visualization of throwing arcs or landing animations
