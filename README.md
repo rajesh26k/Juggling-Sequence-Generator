@@ -44,7 +44,11 @@ Explore all full juggling sequences that land in the pattern [1, 2, 0]
 - LICENSE - MIT 
 - README.md - This file
 # How to Run
-1. In Java locally (ex: javac Juggling.java, java Juggling 3 3 7)
+1. In Java locally ex:
+   ``` java
+   javac Juggling.java;
+   java Juggling 3 3 7;
+    ```
 2. In Google Colab (recommended for interactive use): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajesh26k/Juggling-Sequence-Generator/blob/main/Juggling_Sequences_Code.ipynb)
 
 
