@@ -21,17 +21,17 @@ Sequence Explorer
 - Input a specific mod sequence such as [1, 2, 0] and input a max height such as 6
 - See all corresponding full juggling sequences (like [4, 2, 0] and [1, 5, 3]) whose values will be less than the max height
 # Example Usage
-// Create a generator for sequences of minimum length 2, maximum length 3, and max height 7
+Create a generator for sequences of minimum length 2, maximum length 3, and max height 7
 - Juggling c = new Juggling(2, 3, 7);
 
-// Show the juggling array for sequences of length 3 (mod matrix)
+Show the juggling array for sequences of length 3 (mod matrix)
 - int[][] matrix = c.jugglingArray(3); 
 - c.printArray(matrix);
 
-// Generate all mod sequences and count valid expansions
+Generate all mod sequences and count valid expansions
 - c.createSequences();
 
-// Explore all full juggling sequences that land in the pattern [1, 2, 0]
+Explore all full juggling sequences that land in the pattern [1, 2, 0]
 - c.listExpansions(Arrays.asList(1, 2, 0));
 # Tech
 - Java: All core logic is implemented in Java
