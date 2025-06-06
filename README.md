@@ -41,6 +41,7 @@ Explore all full juggling sequences that land in the pattern [1, 2, 0]
 - Juggling.java - Core logic: generation, counting, expansion
 - Juggling_Sequences_Code.ipynb - Google Colab notebook with inputs, buttons, and live output
 - JugglingSeq.mp4 - Example demonstration using colab
+- LICENSE - MIT 
 - README.md - This file
 # How to Run
 1. In Java locally (ex: javac Juggling.java, java Juggling 3 3 7)
