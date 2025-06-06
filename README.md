@@ -1,7 +1,7 @@
 # Juggling-Sequence-Generator
  This project explores and generates juggling sequences using recursive algorithms, combinatorics, and Java. It was inspired by a mathematical problem involving modular juggling patterns and uses concepts like grid-based rook placements, modular arithmetic, and recursive enumeration to count and expand juggling sequences under given constraints.
 # ![image](https://github.com/user-attachments/assets/7144b8e7-0e80-4fff-9063-6142ea22de72) 
-This is a visual illustration of a juggling sequence from [www.plus.maths.org](url)
+This is a visual illustration of a juggling sequence from [Plus Magazine](https://plus.maths.org/content/)
 # What Are Juggling Sequences?
 A juggling sequence is a list of non-negative integers such that if you add each element’s index to its value, then take each result modulo the length of the list, the resulting sequence is a permutation of the indices. This ensures each throw lands on a unique beat (no two balls collide mid-air). These patterns are core to the math behind juggling tricks.
 # What This Project Does
@@ -22,17 +22,17 @@ Sequence Explorer
 - See all corresponding full juggling sequences (like [4, 2, 0] and [1, 5, 3]) whose values will be less than the max height
 # Example Usage
 // Create a generator for sequences of minimum length 2, maximum length 3, and max height 7
-Juggling c = new Juggling(2, 3, 7);
+- Juggling c = new Juggling(2, 3, 7);
 
 // Show the juggling array for sequences of length 3 (mod matrix)
-int[][] matrix = c.jugglingArray(3); 
-c.printArray(matrix);
+- int[][] matrix = c.jugglingArray(3); 
+- c.printArray(matrix);
 
 // Generate all mod sequences and count valid expansions
-c.createSequences();
+- c.createSequences();
 
 // Explore all full juggling sequences that land in the pattern [1, 2, 0]
-c.listExpansions(Arrays.asList(1, 2, 0));
+- c.listExpansions(Arrays.asList(1, 2, 0));
 # Tech
 - Java: All core logic is implemented in Java
 - Python (Colab UI): An optional Colab notebook adds a GUI layer using Python widgets
